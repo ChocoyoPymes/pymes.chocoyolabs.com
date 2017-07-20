@@ -1,0 +1,11 @@
+-
+  thumbnails: '/assets/images/portfolio/ekipa_interiores_thumbnails.jpg'
+  picture: '/assets/images/portfolio/ekipa_interiores.jpg'
+  title: 'Ekipa Interiores'
+  site: 'http://www.ekipainteriores.com'
+
+-
+  thumbnails: 'http://via.placeholder.com/768x540'
+  picture: 'http://via.placeholder.com/1170x970'
+  title: 'Bright Nicaragua'
+  site: 'http://www.brightnicaragua.com/'

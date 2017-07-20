@@ -1,0 +1,64 @@
+---
+title: Portafolio
+layout: portfolio
+permalink: "/portafolio/"
+---
+
+<!-- Main Content row -->
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="content-inner">
+        <!-- Left sidebar -->
+
+        <div id="component" class="col-sm-12">
+          <main role="main">
+            <div id="system-message-container">
+            </div>
+
+            <div class="gallery">
+              <header class="page_header">
+                <h2><span
+                    class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">{{ page.title }}</span>
+                </h2>
+              </header>
+              <div class="jg_category">
+              </div>
+              <div class="jg_gallery row cols-3" id="jg_gallery">
+                <div class="jg_displaynone">
+                </div>
+                {% for item in site.data.portfolio %}
+                <div class="jg_element_cat mix gallery-grid gallery-item col-sm-4" data-date="20160910114000"
+                     data-value="0">
+                  <div class="jg_imgalign_catimgs">
+                    <img
+                        src="{{ item.thumbnails }}"
+                        class="jg_photo_custom" width="768" height="540" alt="gallery-image13"/>
+                    <div class="jg_catelem_txt">
+                      <ul>
+                        <li class="jg_links">
+                          <strong>{{ item.title }}</strong>
+                        </li>
+                        <li class="jg_links">
+                          <a class="fancybox-thumb" data-title="gallery-image13"
+                             href="{{ item.picture }}"
+                             data-fancybox="fancybox" data-fancybox-group="joomgallery" data-fancybox-type="image"><i
+                              class="fa fa-search-plus"></i></a>
+                          <a href="{{ item.site }}" target="_blank"><i
+                              class="fa fa-external-link"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+              <div class="jg_displaynone">
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

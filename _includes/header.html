@@ -1,0 +1,26 @@
+<div id="top" class="hidden-xs">
+  <div class="container">
+    <div class="row"><!-- Logo -->
+      <div id="logo" class="col-sm-4">
+        <div class="site-description">
+          <img src="/assets/images/logo.png" width="370" height="70" alt="{{ site.title }}" />
+        </div>
+      </div>
+      <nav class="moduletable home_menu col-sm-8">
+        <div class="module_container">
+          <div class="icemegamenu">
+            <ul id="icemegamenu">
+              {% for item in site.data.menu %}
+              <li id="iceMenu_101" class="iceMenuLiLevel_1 current active fullwidth">
+                <a href="{{ item.href | relative_url }}" class="icemega_active iceMenuTitle ">
+                  <span class="icemega_title icemega_nosubtitle">{{ item.name }}</span>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

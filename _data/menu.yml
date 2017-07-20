@@ -1,0 +1,12 @@
+-
+  name: Inicio
+  href: '/'
+-
+  name: Cómo funciona
+  href: '/como-functiona/'
+-
+  name: Portafolio
+  href: '/portafolio/'
+-
+  name: Contacto
+  href: '/contacto/'

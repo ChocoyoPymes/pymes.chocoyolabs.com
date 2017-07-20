@@ -1,0 +1,63 @@
+-
+  first_name: Tania
+  last_name: Narvaez
+  job_title: La que te vende
+  picture: '/assets/images/team/team-1.jpg'
+  networks:
+  -
+    provider: facebook
+    url: 'https://www.facebook.com/tania.narvaez.965'
+  -
+    provider: twitter
+    url: 'https://twitter.com/tanianarvaezl'
+  -
+    provider: instagram
+    url: 'https://www.instagram.com/tanitanarvaez/'
+
+-
+  first_name: Paulo
+  last_name: McNally
+  job_title: El que las hace
+  picture: '/assets/images/team/team-2.jpg'
+  networks:
+  -
+    provider: facebook
+    url: 'https://www.facebook.com/paulo.mcnally'
+  -
+    provider: twitter
+    url: 'https://twitter.com/paulomcnally/'
+  -
+    provider: instagram
+    url: 'https://www.instagram.com/paulomcnally/'
+
+-
+  first_name: Jeral
+  last_name: Urrutia
+  job_title: El que las hace
+  picture: '/assets/images/team/team-3.jpg'
+  networks:
+  -
+    provider: facebook
+    url: 'https://www.facebook.com/subcomandante.marcos.9461'
+  -
+    provider: twitter
+    url: 'https://twitter.com/'
+  -
+    provider: instagram
+    url: 'https://www.instagram.com/'
+
+-
+  first_name: Osmar
+  last_name: Calderón
+  job_title: El que las hace
+  picture: '/assets/images/team/team-4.jpg'
+  networks:
+  -
+    provider: facebook
+    url: 'https://www.facebook.com/osmar.calderoncuadra'
+  -
+    provider: twitter
+    url: 'https://twitter.com/'
+  -
+    provider: instagram
+    url: 'https://www.instagram.com/osmar.06/'

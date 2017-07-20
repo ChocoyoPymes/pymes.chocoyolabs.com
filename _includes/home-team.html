@@ -1,0 +1,55 @@
+<!-- maintop -->
+<div id="maintop">
+  <div class="container">
+    <div class="row">
+      <div class="moduletable team_home team  col-sm-12">
+        <div class="module_container">
+          <header class='page_header'>
+            <h1 class="moduleTitle ">
+            <span
+                class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Los</span>
+              <span
+                  class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">Chocoyos</span>
+            </h1>
+          </header>
+          <div class="mod-newsflash-adv mod-newsflash-adv__team_home team cols-4" id="module_153">
+            <div class="row">
+              {% for item in site.data.team %}
+              <article class="col-sm-3 item item_num0 item__module  " id="item_41">
+                <div class="item_content">
+                  <!-- Intro Image -->
+                  <figure class="item_img img-intro img-intro__none">
+                    <img src="{{ item.picture }}" alt="">
+                  </figure>
+                  <!-- Item title -->
+                  <h5 class="item_title item_title__team_home team"><span
+                      class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">{{ item.first_name }}</span>
+                    <span
+                        class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">{{ item.last_name }}</span>
+                  </h5>
+                  <!-- Introtext -->
+                  <div class="item_introtext">
+                    <p>{{ item.job_title }}</p>
+                    <ul class="social-links">
+                      {% for network in item.networks %}
+                      <li>
+                        <a href="{{ network.url }}" target="_blank">
+                          <i class="fa fa-{{ network.provider }}"></i>
+                        </a>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  <!-- Read More link -->
+                </div>
+                <div class="clearfix"></div>
+              </article>
+              {% endfor %}
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

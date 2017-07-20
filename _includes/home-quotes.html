@@ -1,0 +1,42 @@
+<!-- mainbottom -->
+<div id="mainbottom">
+  <div class="moduletable home_blockquotes">
+    <div class="module_container">
+      <div class="owl-carousel owl-carousel_214 mod_owl_carousel mod_owl_carousel__home_blockquotes" id="module_214"
+           data-margin="51"
+           data-xs-margin="51"
+           data-sm-margin="51"
+           data-md-margin="51"
+           data-lg-margin="51"
+           data-stage-padding="50"
+           data-xs-stage-padding="50"
+           data-sm-stage-padding="50"
+           data-md-stage-padding="50"
+           data-lg-stage-padding="50"
+           data-autoplay="false"
+           data-nav="true"
+           data-dots="false"
+           data-lg-items="1"
+           data-sm-items="1"
+           data-xs-items="1"
+           data-items="1"
+           data-loop="true"
+      >
+        {% for item in site.data.quotes %}
+        <div class="owl-item" id="item_152">
+          <div class="owl-item_content"><!-- Intro Image -->
+            <figure class="item_img img-intro img-intro__left">
+              <img src="{{ item.picture }}" alt="{{ item.name }}">
+            </figure>
+            <blockquote>
+              <p>{{ item.message }}</p>
+              <cite>- {{ item.name }}</cite>
+            </blockquote>
+            <!-- Read More link -->
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

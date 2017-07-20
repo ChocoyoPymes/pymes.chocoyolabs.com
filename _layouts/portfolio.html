@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div id="breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="moduletable   col-sm-12">
+        <div class="module_container">
+          <ul class="breadcrumb">
+            <li>
+              <a href="/" class="pathway">Inicio</a>
+              <span class="divider">&nbsp;|&nbsp;</span>
+            </li>
+            <li>
+              <a href="{{ page.url }}" class="pathway">{{ page.title }}</a>
+              <span class="divider">&nbsp;|&nbsp;</span>
+            </li>
+            <li class="active">
+              <span>{{ page.title }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ content }}
