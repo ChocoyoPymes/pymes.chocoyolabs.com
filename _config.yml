@@ -18,7 +18,7 @@ email: pymes@chocoyolabs.com
 description: >
   Tus aliados en la transformación de tu negocio a la era digital.
 keywords: 'página web, correo electrónico, hosting, blog, productos, catálogo'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: http://chocoyopymes.github.io/pymes.chocoyolabs.com # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
